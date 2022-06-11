@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 10 19:46:50 BDT 2022</td>
+<td>Started on:</td><td>Wed Feb 16 02:24:09 BDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34330 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49453 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCase.TC0321_LocatorLearning.locatorLearning()'><b>locatorLearning</b><br>Test class: testCase.TC0321_LocatorLearning</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ubermenu\-target\-text&quot;}
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;xt_woofcicon-flat-plus&quot;&gt;&lt;/i&gt; is not clickable at point (724, 338). Other element would receive the click: &lt;div class=&quot;xt_woofc-list-wrap&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-G7LK545&apos;, ip: &apos;192.168.241.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa2f2ac95da61a680e420b65f4037b44, findElement {using=css selector, value=.ubermenu\-target\-text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56105/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2f2ac95da61a680e420b65f4037b44
+Command: [95f5cc63965530d4cbc3ac5dd326ab52, clickElement {id=83f01e2c-ddb3-418b-8ca8-57bb58769411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54285/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (95f5cc63965530d4cbc3ac5dd326ab52)] -&gt; class: xt_woofcicon-flat-plus]
+Session ID: 95f5cc63965530d4cbc3ac5dd326ab52
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -96,17 +96,9 @@ Session ID: fa2f2ac95da61a680e420b65f4037b44
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:298)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:21)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -135,16 +127,16 @@ Session ID: fa2f2ac95da61a680e420b65f4037b44
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1096411163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1096411163'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ubermenu\-target\-text&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1174714624", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1174714624'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;i class=&quot;xt_woofcicon-flat-plus&quot;&gt;&lt;/i&gt; is not clickable at point (724, 338). Other element would receive the click: &lt;div class=&quot;xt_woofc-list-wrap&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-G7LK545&apos;, ip: &apos;192.168.241.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa2f2ac95da61a680e420b65f4037b44, findElement {using=css selector, value=.ubermenu\-target\-text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56105/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2f2ac95da61a680e420b65f4037b44
+Command: [95f5cc63965530d4cbc3ac5dd326ab52, clickElement {id=83f01e2c-ddb3-418b-8ca8-57bb58769411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54285/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (95f5cc63965530d4cbc3ac5dd326ab52)] -&gt; class: xt_woofcicon-flat-plus]
+Session ID: 95f5cc63965530d4cbc3ac5dd326ab52
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -156,17 +148,9 @@ Session ID: fa2f2ac95da61a680e420b65f4037b44
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:298)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:21)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -196,7 +180,7 @@ Session ID: fa2f2ac95da61a680e420b65f4037b44
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>34</td>
+<td>49</td>
 <td>testCase.TC0321_LocatorLearning@2e3fc542</td></tr>
 </table><p>
 </body>

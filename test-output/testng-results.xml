@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34330" started-at="2022-02-10T19:46:50 BDT" finished-at="2022-02-10T19:47:25 BDT">
+  <suite name="Default suite" duration-ms="49453" started-at="2022-02-16T02:24:09 BDT" finished-at="2022-02-16T02:24:58 BDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34330" started-at="2022-02-10T19:46:50 BDT" finished-at="2022-02-10T19:47:25 BDT">
+    <test name="Default test" duration-ms="49453" started-at="2022-02-16T02:24:09 BDT" finished-at="2022-02-16T02:24:58 BDT">
       <class name="testCase.TC0321_LocatorLearning">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="setDriver" is-config="true" duration-ms="21215" started-at="2022-02-10T19:46:29 BDT" finished-at="2022-02-10T19:46:50 BDT">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="setDriver" is-config="true" duration-ms="5589" started-at="2022-02-16T02:24:03 BDT" finished-at="2022-02-16T02:24:09 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="FAIL" signature="locatorLearning()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="locatorLearning" duration-ms="34217" started-at="2022-02-10T19:46:50 BDT" finished-at="2022-02-10T19:47:25 BDT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="locatorLearning()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="locatorLearning" duration-ms="49367" started-at="2022-02-16T02:24:09 BDT" finished-at="2022-02-16T02:24:58 BDT">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".ubermenu\-target\-text"}
+              <![CDATA[element click intercepted: Element <i class="xt_woofcicon-flat-plus"></i> is not clickable at point (724, 338). Other element would receive the click: <div class="xt_woofc-list-wrap">...</div>
   (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-G7LK545', ip: '192.168.241.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa2f2ac95da61a680e420b65f4037b44, findElement {using=css selector, value=.ubermenu\-target\-text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56105/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2f2ac95da61a680e420b65f4037b44]]>
+Command: [95f5cc63965530d4cbc3ac5dd326ab52, clickElement {id=83f01e2c-ddb3-418b-8ca8-57bb58769411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54285/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (95f5cc63965530d4cbc3ac5dd326ab52)] -> class: xt_woofcicon-flat-plus]
+Session ID: 95f5cc63965530d4cbc3ac5dd326ab52]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ubermenu\-target\-text"}
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="xt_woofcicon-flat-plus"></i> is not clickable at point (724, 338). Other element would receive the click: <div class="xt_woofc-list-wrap">...</div>
   (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-G7LK545', ip: '192.168.241.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa2f2ac95da61a680e420b65f4037b44, findElement {using=css selector, value=.ubermenu\-target\-text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56105/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa2f2ac95da61a680e420b65f4037b44
+Command: [95f5cc63965530d4cbc3ac5dd326ab52, clickElement {id=83f01e2c-ddb3-418b-8ca8-57bb58769411}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\farhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54285/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (95f5cc63965530d4cbc3ac5dd326ab52)] -> class: xt_woofcicon-flat-plus]
+Session ID: 95f5cc63965530d4cbc3ac5dd326ab52
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -45,17 +45,9 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)
-at org.openqa.selenium.By$ByClassName.findElement(By.java:298)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:21)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at testCase.TC0321_LocatorLearning.locatorLearning(TC0321_LocatorLearning.java:42)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,11 +78,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- locatorLearning -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="close" is-config="true" duration-ms="7710" started-at="2022-02-10T19:47:25 BDT" finished-at="2022-02-10T19:47:33 BDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:testCase.TC0321_LocatorLearning@2e3fc542]" name="close" is-config="true" duration-ms="542" started-at="2022-02-16T02:24:59 BDT" finished-at="2022-02-16T02:24:59 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
